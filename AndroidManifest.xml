@@ -9,7 +9,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <!--<activity android:name="foxit.ui.FileBrowserActivity"/>-->
 <!--<activity android:name="foxit.ui.MainActivity"   />-->
         <!--<activity android:name="org.apache.cordova.CordovaActivity"/>-->

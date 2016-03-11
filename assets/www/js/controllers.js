@@ -181,6 +181,12 @@ angular.module('starter.controllers', [])
     { title: 'NEW HOME CONTRACT', id: 3 },
     { title: 'FARM & RANCH CONTRACT', id: 4 },
   ];
+   function moveToScreen() {
+   alert ("hi");
+          Ma.moveToNextScreen();
+
+
+      }
 })
 .controller('EditcontractCtrl', function($scope){
     $scope.para1 = "Lorem ipsum dolor sit amet, consectetur\nadipiscing elit. Etiam suscipit fermentum\nnibh, a lobortis magna sollicitudin ac. Sed \nlorem mi, sollicitudin a massa sed, mollis ali- \nquet turpis. Ut ornare maximus lorem et pel- \nlentesque. Sed odio nisl, faucibus eget ligula \nnon, mattis mollis eros."

@@ -44,7 +44,7 @@ public class OpenNative extends CordovaPlugin {
 
       Intent  intent = new Intent(this.cordova.getActivity().getApplicationContext(), FileBrowserActivity.class);
 
-        this.cordova.getActivity().startActivityForResult(intent,0);
+//        this.cordova.getActivity().startActivityForResult(intent,0);
         this.cordova.getActivity().startActivity(intent);
         this.cordova.getActivity().overridePendingTransition(android.R.anim.slide_in_left, android.R.anim.slide_out_right);
     }
