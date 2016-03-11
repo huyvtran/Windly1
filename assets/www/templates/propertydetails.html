@@ -1,0 +1,60 @@
+<ion-view>
+	<div class="bar bar-header head-col">
+	  <button class="button button-icon bold ion-ios-arrow-thin-left" ui-sref="app.tabs.getstarted"></button>
+	  <div class="h1 title bold">SINGLE FAMILY HOME</div>
+    </div>
+    <ion-content scroll="true">
+
+                <ion-slide-box>
+                    <ion-slide>
+                        <img ng-src="{{image1}}" class="pd-slide">
+                    </ion-slide>
+					<ion-slide>
+                        <img ng-src="{{image1}}" class="pd-slide">
+                    </ion-slide>
+					<ion-slide>
+                        <img ng-src="{{image1}}" class="pd-slide">
+                    </ion-slide>
+                </ion-slide-box>
+		 <form class="pd-mar">				
+            <ion-list>				
+                <div class="buyde-hgt">
+					<ion-item  ng-bind-html="name" class="pd-name">
+                    </ion-item>
+					<ion-item  ng-bind-html="price" class="pd-price">
+                    </ion-item>
+					<ion-item  ng-bind-html="add1  | nl3p">
+				    </ion-item>
+					  <div class="row">
+						  <img ng-src="{{image2}}" class="col-33 pd-small">
+						  <img ng-src="{{image3}}" class="col-33 pd-small">
+						  <img ng-src="{{image4}}" class="col-33 pd-small">
+					  </div>
+					  <div class="row">
+						  <div class="col33 pd-imgtext">4 Beedrooms</div>
+						  <div class="col33 pd-imgtext">2 Bathrooms</div>
+						  <div class="col33 pd-imgtext">3,250 sqft</div>
+					  </div>
+					<ion-item  ng-bind-html="home" class="pd-head">
+                    </ion-item>
+					<div class="pd-details">
+					<ion:articles  ng-bind-html="details">
+					</ion:articles>
+					</div>
+					<ion-item  ng-bind-html="list" class="pd-list">
+                    </ion-item>
+					<ion-item  ng-bind-html="list1" class="pd-list1">
+                    </ion-item>
+					<ion-item  ng-bind-html="mail" class="pd-mail">
+                    </ion-item>
+					<ion-item  ng-bind-html="number" class="pd-number1">
+                    </ion-item><br><br>
+				  </div>
+            </ion-list>					  
+		 </form>
+		
+    </ion-content>
+				<ion-footer-bar class="bar bar-footer pd-foo" ui-sref="pickcontract">
+				  <div class="title reg-tittle bold">SUBMT OFFER</div>
+				</ion-footer-bar>
+</ion-view>

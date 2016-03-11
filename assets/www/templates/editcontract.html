@@ -1,0 +1,18 @@
+<ion-view hide-nav-bar="true" title="New Entry Form" hide-tabs>
+	<div class="bar bar-header head-col">
+	  <button class="button button-icon bold ion-ios-arrow-thin-left" ui-sref="pickcontract"></button>
+	  <div class="h1 title bold">1-4 FAMILY RESIDENTIAL</div>
+    </div>
+    <ion-content scroll="true" class="edit-padd">
+		<h3>Editor</h3>
+
+		  <div text-angular="text-angular" name="orightml" ng-model="orightml" ta-disabled='disabled'></div>
+
+    </ion-content>
+			<div class="bar bar-footer edit-nopadd">
+				<div class="button-bar">
+					<button class="button icon-left edit-bcolorg bold" ui-sref="signature">SIGN</button>
+					<button class="button edit-bcolorr activated bold"  onclick="window.open('https://www.pdfzorro.com/api.php?path_to_pdf=test.pdf', '_self', 'location=no')">SAVE</button>
+				</div>
+			</div>
+</ion-view>

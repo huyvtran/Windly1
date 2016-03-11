@@ -1,0 +1,906 @@
+.tab-item.tab-item-active, .tab-item.active, .tab-item.activated {
+    color: red !important;
+}
+.reg-tittle {
+	text-align: center !important;
+	font-size: 16px !important;
+	line-height: 3 !important;
+}
+.img-all{
+	width: 100%;
+	height: 140px !important;
+}
+.img-pop{
+	width: 100%;
+	height: 106px !important;
+}
+.img-sml{
+	width: 100%;
+    height: 20px;
+}
+.img-smpop{
+	height:20px !important;
+}
+.txt-sml{
+	width: 100%;
+    font-size: 11px;
+	text-align: center !important;
+	color: rgb(189, 189, 189) !important;
+}
+.list-pad{
+	padding: 5% 0 0 0 !important;
+}
+.list-mar{
+	margin-left: -7% !important;
+}
+/* Empty. Add your own CSS if you like */
+#gmaps {
+  width: 100%;
+  height: 100%;
+}
+#map {
+  width: 100%;
+  height: 100%;
+}
+.map img {
+    max-width: none;
+}
+.scroll {
+  height: 100%;
+}
+
+.friend-map {
+  color: red;
+  
+}
+
+/* -- Splash -- */
+.windly_bg_removepart{
+	background-color: #08B5CC !important;
+	border-color: #08B5CC !important;
+    margin-top: 20% !important;
+    margin-bottom: 74% !important;
+}
+
+.border_item{
+    border:0px solid white !important;
+}
+.splash_home_image{
+	margin-top:100px !important;
+}
+.bodyimg{
+    background-image: url(../img/bg-imag.png);
+    background-repeat: no-repeat !important;
+    background-size:cover;
+    height:auto;
+
+}
+.card, .list-inset {
+    overflow: hidden;
+    margin: 20px 10px;
+    border-radius: 2px
+    background-color: transparent !important ;
+}
+/* side-menu.css */
+.sm-reitem{
+	background-color: rgb(27, 27, 27) !important;
+	border: 0px solid rgb(27, 27, 27) !important;
+	color: rgb(251, 251, 251);
+	background-image: linear-gradient(rgb(27, 27, 27), rgb(27, 27, 27), rgb(27, 27, 27)50%, transparent 50%) !important;
+}
+.sm-uimg{
+	width: 71px !important;
+	float: left !important;
+	margin-left: 21px !important;
+}
+.sm-uname{
+    text-align: left !important;
+    color: rgb(64, 210, 147) !important;
+    font-weight: bold !important;
+    font-family: Montserrat-light !important;
+    font-size: 16px !important;
+    padding-top: 17px !important;
+    padding-left: 14px;
+}
+.sm-mail{
+    text-align: left !important;
+    color: #ddd !important;
+    font-weight: bold !important;
+    font-family: Montserrat-light !important;
+    font-size: 16px !important;
+    padding-top: 0px !important;
+    padding-left: 14px;
+}
+
+.sm-home{
+	width: 30px !important;
+    margin: -1px -3px -6px 2px !important;
+}
+.sm-log{
+	width: 20px !important;
+	height: 20px !important;
+	margin-left: 41px !important;
+}
+.sm-text{
+	padding-left: 8px;
+	font-size: 13px;
+	color: color: rgb(251, 251, 251) !important;
+}
+.sm-midfix{
+	padding: 23px;
+    margin-top: 30px;
+}
+.sm-badge{
+	margin-top: 6px !important;
+}
+/* Edit-Contract.css */
+.editcontract { 
+	color: rgb(153, 153, 153) !important;
+    text-align: left;
+	font-size: 14px;
+}
+.edit-padd{
+	margin-top: 65px !important;
+    margin-right: 6%;
+	margin-left: 8%;
+}
+.edit-gap{
+   margin-top:20px;	
+}
+.edit-bottom{
+   margin-bottom:30px;	
+}
+.edit-nopadd{
+    padding: 0 !important;
+    height: 50px !important;	
+}
+.edit-bcolorg{
+    border-color: transparent;
+    background-color: rgb(64, 206, 145) !important;
+    color: rgb(255, 255, 255);
+	font-size: 16px !important;
+	border-radius: 0 !important;
+}
+.edit-bcolorr{
+    border-color: transparent;
+    background-color: rgb(240, 87, 87) !important;
+    color: rgb(255, 255, 255);
+	font-size: 16px !important;
+	border-radius: 0 !important;
+}
+/* Login.css */
+.login-back{
+    background: url(../img/Login.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.login-form{
+    background-color: #fff;
+    margin-top: 30px;
+    padding: 10px;	
+}
+.login-input{
+    border-bottom: 2px solid rgb(243, 243, 243) !important;	
+	height: 50px;
+}
+.login-line{
+    text-align: center;	
+}
+.login-line2{
+    display: initial;
+    margin-left: 2px;
+}	
+.clr{
+    color: rgb(85, 85, 85);
+}
+.clr-text{
+    color: rgb(164, 164, 164);
+}
+.bold{
+    font-weight:bold !important;
+	color:#fff !important;
+}
+.space{
+    width: 100%;
+	height: 17px;	
+}
+
+/* Register.css */
+.head-col{
+	background-color: rgb(8, 181, 204) !important;
+}
+.reg-form{
+    background-color: #fff;
+    margin-top: 60px;
+    padding: 0 !important;	
+}
+.reg-input{
+    border-bottom: 1px solid rgb(243, 243, 243) !important;	
+	height: 50px;
+}
+.reg-mid{
+    color: rgb(65, 72, 79);
+    font-weight: bold;
+    font-size: 15px;
+    font-family: sans-serif;	
+}
+.reg-mid1{
+    margin: 30px 0 10px;
+    text-align: center !important;
+	font-family: sans-serif;
+}
+
+/* Add Buyer.css */
+.add-input{
+    border-bottom: 1px solid rgb(249, 249, 249) !important;
+    height: 60px;
+}
+.add-margin{
+    margin: 0 !important;	
+}
+
+/* Pick contract.css */
+.pick-search{
+    padding-left: 8px;
+    background: white;
+	display: flex;
+	align-items: center;
+}
+.pick-bar{
+	padding: 8px 10px 8px 10px;
+	background-color: rgb(242, 242, 242);
+}
+.pick-top{
+    top: -11px !important;	
+}
+
+/* Offers.css */
+.off-button-col{
+    border-color: transparent;
+    background-color: rgb(175, 118, 229);
+	margin-top: -12px !important;
+}
+.off-icon{
+    height: 25px;
+    top: 0;
+    float: left;
+    bottom: 0;	
+}
+.off-text{
+    margin: 3px 0 0 10px !important;	
+}
+.off-togg{
+    display: table-column !important;
+    font-weight:bold;
+	color:#fff !important;
+}
+.off-comm{
+	padding: 0 !important;
+    border: 0 solid #fff !important;
+    display: inline-block;
+}
+.off-price{
+    color: rgb(47, 47, 47) !important;
+    font-weight: bold;
+    font-size: 17px;
+}
+.off-padd1{
+	padding-right: 0 !important;
+    padding-bottom: 0 !important;
+}
+.off-add{
+    color: rgb(116, 116, 116) !important;
+    font-size: 14px;
+	padding-bottom: 0;
+}
+.off-name{
+    color: rgb(4, 179, 203);
+    font-size: 12px;
+    font-weight: bold;
+    display: inline-block;
+}
+.off-date{
+    color: rgb(204, 204, 204);
+    font-size: 12px;
+}
+.off-namepre{
+    color: rgb(188, 188, 188);
+    font-size: 11px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+/* Saved-Contract.css */
+.saved-head{
+    background-color: rgb(26, 178, 198) !important;	
+}
+.saved-buttong{
+    background-color: rgb(64, 206, 145) !important;
+	color: rgb(255, 255, 255) !important;
+}
+.saved-buttonr{
+    background-color: rgb(240, 87, 87) !important;
+	color: rgb(255, 255, 255) !important;
+}
+.saved-buttond{
+    background-color: rgb(179, 179, 179) !important;
+	color: rgb(255, 255, 255) !important;
+}
+.saved-buttonw{
+    background-color: rgb(255, 255, 255) !important;
+	color: rgb(179, 179, 179) !important;
+    border: 3px solid rgb(180, 180, 180) !important;
+}
+.saved-spacer{
+    width: 100%;
+	height: 200px !important;
+}
+.saved-text{
+    margin-top: 50px !important;
+	text-align: center;
+	font-size: 16px !important;
+	color: rgb(79, 79, 79);
+}
+.saved-textmid{
+    margin-top: 50px;
+	text-align: center;
+	font-size: 16px !important;
+	color: #000 !important;
+	font-weight: bold;
+}
+.saved-text2{
+	text-align: center;
+	font-size: 16px !important;
+	color: rgb(79, 79, 79);
+}
+.no-padd{
+    padding: 0 !important;
+	border-width: 0px !important;
+	text-align:center;
+	font-weight: bold;
+}
+/* Buyer-Details.css */
+
+.buyde-foo{
+	border-top: 1px solid red !important;
+	margin-bottom: -2px !important;
+	
+}
+.buyde_foo-clrpad{
+    padding:0px !important;
+	background-color: rgb(214, 69, 69) !important;
+}
+.buyde_mark{
+	font-size: 15px !important;
+	color: #FFF !important;
+	margin: -1px 0px 0px 0px !important;
+	text-align:center;
+	background-color:rgb(51, 51, 51) !important;
+	line-height: 35px;
+	font-weight: bold;
+	cursor:pointer;
+}
+.npad{
+	padding:0px !important;
+}
+.buyde-delete{
+	list-style: none;
+    font-size: 39px;
+    margin-top: -1px;
+    text-align: center;
+    opacity: 0.9;
+    cursor: pointer;
+}
+.buyde-edit{
+	list-style: none;
+    font-size: 39px;
+    margin-top: -1px;
+    text-align: center;
+    opacity: 0.8;
+    cursor: pointer;
+}
+.buyde-align{
+	padding: 0 !important;
+	border-width: 0px !important;
+	text-align:left;
+
+}
+.buyde-clr{
+    color: #000 !important;
+	font-weight: bold;
+}
+.buyde-top{
+    margin-top: 20%;
+    margin-left: 15%;
+}
+.buyde-last{
+	margin-top: 15px;
+	margin-left: 15%;
+}
+.buyed-mid{
+    margin-left: 15%;	
+}
+.buyde-col{
+	border-color: transparent;
+    background-color: rgb(64, 206, 145);
+    color: #fff;
+	border-radius: 0 !important;
+	border-width: 0 !important;
+}
+.buyde-butt{
+	margin-left: 3%;
+    margin-top: 5%;
+	margin-bottom: 20px;
+}
+.by-wid{
+	width: 47% !important;
+	padding: 0 !important;
+}
+.by-wid1{
+	width: 47% !important;
+	padding: 0 !important;
+}
+.buyde-stripr{
+	background-color: rgb(240, 87, 87);
+    border-color: transparent;
+    margin-top: -12px !important;
+}
+.buyde-stripo{
+	background-color: rgb(255, 151, 67);
+    border-color: transparent;
+    margin-top: -12px !important;
+}
+.buyed-img{
+	height: 135px;
+    margin-bottom: -15px !important;
+	width: 125px;
+}
+.buyed-last{
+	height: 135px;
+    margin-bottom: 0px !important;
+	width: 125px;	
+}
+.buyde-form{
+	background-color: #fff;
+    margin-top: 30px;
+    padding: 0 !important;
+}
+.buyde-namegap{
+	text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+	color: #000;
+    margin-top: 18%;
+    font-family: montserrat-bold sans-serif;
+}
+.buyde-imgtext{
+	padding: 0 !important;
+    border: 0 solid #fff !important;
+    display: inline-block;
+	margin: 0 0 90px 12px !important;
+    color: rgb(44, 190, 210);
+	font-weight: bold;
+}
+.buyde-imgtext2{
+	padding: 0 !important;
+    display: inline-block;
+    margin: -76px 0 69px 140px !important;
+    color: #000;
+    font-size: 24px;
+    font-weight: bold;
+}
+.buyde-imgtext3{
+	    padding: 0 !important;
+    display: inline-block;
+    margin: -76px 0 66px 142px !important;
+    color: rgb(154, 154, 154);
+    font-size: 16px;
+}
+.by-bold{
+    font-weight: bold;
+}
+.buyde-hgt{
+	height: 125px !important;
+}
+/* Property-details.css */
+.pd-slide{
+	width:100% !important;
+	height:220px !important;
+	margin:auto;
+	display:block;
+	margin-top: 48px !important;
+}
+.pd-mar{
+    background-color: #fff;
+    margin-top: 20px;
+    padding: 0 !important;	
+}
+.pd-name{
+	margin-left: 20px !important;
+    color: rgb(240, 87, 87);
+    font-weight: bold;
+    font-size: 16px;
+	padding: 0 !important;
+}
+.pd-foo{
+	position: fixed !important;
+    background-color: rgb(240 ,87, 87) !important;
+}
+.pd-price{
+	padding: 0 !important;
+    margin: 5px 0 0 20px !important;
+    color: #000;
+    font-size: 24px;
+    font-weight: bold;
+}
+p.pd{
+	color: #000;
+	margin-left: 7px;
+}
+.pd-small{
+	height: 60px;
+}
+.pd-imgtext{
+    width: 33.33%;
+    text-align: center;
+}
+.pd-head{
+	margin-left: 20px !important;
+    color: rgb(126, 126, 126);
+    font-weight: bold;
+    font-size: 16px;
+    padding: 0 !important;
+    margin-top: 20px;
+}
+p.pd-text{
+	color: rgb(159, 159, 159) !important;
+    text-align: left;
+    font-size: 14px;
+}
+.pd-details{
+    margin-left: 7%;
+    color: rgb(159, 159, 159) !important;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-right: 6%;
+    text-align: left !important;
+}
+.pd-details1{
+	margin-left: 7%;
+    color: rgb(159, 159, 159) !important;
+    font-size: 16px;
+    padding: 0 !important;
+    margin-top: 10px;
+}
+.pd-list{
+	color: rgb(120, 134, 148);
+    text-align: center;
+    font-size: 16px;
+    padding: 0 !important;
+    margin-top: 40px;
+}
+.pd-list1{
+	color: rgb(54, 54, 54);
+    text-align: center;
+    font-size: 16px;
+    padding: 0 !important;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.pd-mail{
+	color: rgb(32, 187, 208);
+    text-align: center;
+    font-size: 14px;
+    padding: 0 !important;
+    margin-top: 8px;
+    text-decoration: underline;
+}
+.pd-number1{
+	color: rgb(110, 115, 120);
+    text-align: center;
+    font-size: 14px;
+    padding: 0 !important;
+    margin-top: 8px;
+}
+/* -- offerdetails -- */
+.od-top{
+	margin-top: 0px !important;
+}
+.od-buyer{
+    color: rgb(2, 179, 202) !important;
+    text-align: left;
+    font-size: 17px !important;
+    font-weight: bold;	
+}
+.od-ml{
+    color: rgb(47, 47, 47) !important;
+    font-size: 17px !important;
+    font-weight: bold;
+}
+.od-mar{
+	margin-top: 25px !important;
+}
+.od-day{
+    color: rgb(47, 47, 47) !important;
+    text-align: center;
+    font-size: 17px !important;
+    margin-top: -21px !important;
+    font-weight: bold;
+    margin-left: 12% !important;
+    height: 20px !important;
+    display: inline-block !important;
+}
+.od-padd4{
+	padding: 7px !important;
+}
+.od-date{
+    color: rgb(240, 87, 87) !important;
+    font-size: 17px !important;
+	
+}
+.od-rt{
+	margin-top: 30px !important;
+	border: 0 !important;
+    line-height: 2 !important;	
+}
+.od-base{
+    color: rgb(180, 180, 180) !important;
+    text-align: left;
+    font-size: 17px !important;
+    margin-left: 5% !important;
+}
+.od-number{
+    color: rgb(47, 47, 47) !important;
+    text-align: center;
+    font-size: 18px !important;
+    margin-top: -21px !important;
+    margin-left: 29%;
+    font-weight: bold;
+    height: 20px !important;
+    display: inline-block !important;
+}
+/* -- Homefirst -- */
+.hf-form{
+	background-color: #fff;
+    margin-top: 104px;
+    padding: 0 !important;
+}
+.hf-clr{
+    color: #fff;
+}
+.hf-img{
+	width: 100% !important;
+    height: 270px !important;
+    margin: auto;
+    display: block;
+    margin-top: 91px !important;
+}
+.hf-browse{
+	border-color: transparent;
+    background-color: rgb(240, 87, 87) !important;
+    color: #fff !important;
+    margin: 0 !important;
+	font-weight: bold;
+}
+.hf-add{
+	border-color: transparent;
+    background-color: rgb(64, 206, 145);
+    color: #fff;
+    width: 90% !important;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 0 !important;
+	font-weight: bold;
+}
+.hf-gap{
+	margin-top: 10% !important;
+}
+.hf-get{
+	font-size: 17px;
+    font-weight: bold;
+    color: rgb(69, 76, 83);
+    text-align: center;
+    margin: 0 !important;
+}
+.hf-by{
+	margin: 0 !important;
+    color: rgb(80, 87, 93);
+    text-align: center;
+    font-size: 17px;
+}
+/* -- Home -- */
+.h-stp{
+	background-color: rgb(64, 206, 145);
+    border-color: transparent;
+	margin-top: -12px !important;
+}
+.h-sty1{
+	background-color: rgb(255, 151, 67);
+    border-color: transparent;
+	margin-top: -27px !important;
+}
+.h-sty2{
+	border-color: transparent;
+    background-color: rgb(175, 118, 229);
+    margin-top: -27px !important;
+}
+.h-imgtpop{
+	color: rgb(44, 190, 210);
+	font-size: 10px;
+	font-weight:bold;
+}
+.h-imgt1{
+	color: rgb(44, 190, 210);
+	font-size: 13px;
+}
+.h-imgt2{
+	color: rgb(47, 47, 47) !important;
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 2% !important;
+}
+.h-imgt3{
+	color: rgb(124, 124, 124);
+    font-size: 13px;
+}
+/* -- signature -- */
+.sig-text{
+	margin-top: 35px !important;
+    text-align: center;
+    font-size: 17px !important;
+    color: rgb(47, 47, 47) !important;
+}
+.sig-text2{
+	margin-top: 10px;
+    text-align: center;
+    font-size: 16px !important;
+    color: rgb(190, 190 ,190) !important;
+	font-weight: normal !important;
+}
+.sig-mt{
+	margin-top: 25px !important;
+}
+.sig-button{
+	background-color: rgb(179, 179, 179) !important;
+    color: rgb(255, 255, 255) !important;
+    font-size: 15px !important;
+}
+.sig-clricon{
+	height: 50px;
+	padding-left: 10% !important;
+}
+.sig-clricon1{
+	height: 40px;
+}
+.sig-input{
+	margin-top: 35%;
+    width: 100%;
+    border-bottom: 1px solid !important;
+    border-bottom-color: rgb(204, 204, 204) !important;
+    opacity: 0.4;
+}
+/*-- Buyeractive --*/
+.ba-button{
+	border-color: transparent;
+    color: #fff !important;
+    border-radius: 0 !important;
+    padding: 0 !important;
+	margin: 0 !important;
+}
+.ba-g{
+	background-color: rgb(64, 206, 145) !important;
+}
+.ba-w{
+	background-color: rgb(231, 231, 231);
+	color: rgb(178, 178, 178) !important;
+}
+.ba-row{
+	margin-top: -12px !important;
+	padding: 0 !important;	
+}
+.ba-con{
+    margin-top: 5px !important;
+    margin-left: 10%;
+    font-weight: bold;
+    color: rgb(178, 178, 178) !important;
+    font-size: 14px !important;
+	display: inline-block;
+    width: 100%;
+}
+.ba-con1{
+    margin: 0;
+    margin-left: 10% !important;
+    width: 100%;
+    font-size: 14px;
+    color: rgb(201, 201, 201) !important;
+	display: inline-block;
+    width: 100%;
+}
+.ba-ro{
+    margin-top: -15px !important;
+    padding: 0 !important;
+}
+.ba-first{
+    margin-top: 9%;
+    margin-left: 10%;
+    color: rgb(47, 47, 47) !important;
+    font-weight: bold;
+    font-size: 18px;
+}
+.ba-off{
+	margin-right: 6%;
+	font-weight: normal !important;
+	background-color: rgb(240, 87, 87) !important;
+}
+.ba-colm{
+	padding: 0 !important;
+}
+/* -- Map --*/
+.gm-search{
+	border: 8px solid rgb(242, 242, 242) !important;
+    padding: 3px 0 5px 16px !important;
+}
+.gm-mar{
+	margin: 0 !important;
+}
+.gm-line{
+	font-size: 15px;
+    line-height: 1.4;
+	padding-right: 0 !important;
+}
+/* -- List -- */
+.gl-img{
+	height: 140px !important;
+    margin-bottom: -15px !important;
+	width: 39%;	
+}
+.gl-imgtext{
+	padding: 0 !important;
+    border: 0 solid #fff !important;
+    display: inline-block;
+    margin: 0 0 92px !important;
+    color: rgb(44, 190, 210);
+	margin-left: 3% !important;
+}
+.gl-imgtext2{
+	padding: 0 !important;
+    display: inline-block;
+    margin: -87px 0 80px !important;
+    color: rgb(47, 47, 47) !important;
+    font-size: 21px;
+    font-weight: bold;
+    margin-left: 43% !important;	
+}
+.gl-imgtext3{
+	padding: 0 !important;
+    display: inline-block;
+    margin: -84px 0 77px !important;
+    color: rgb(154, 154, 154);
+    font-size: 14px;
+    font-weight: normal !important;
+    margin-left: 43% !important;	
+}
+.gl-move{
+	margin: -90px 0 0 0px !important;
+    padding: 20px !important;
+}
+.gl-float{
+	margin-left: 35%;
+}
+.gl-hgt{
+	height: 20px;
+}
+.gl-bottom{
+	padding: 13%;
+    text-align: center;
+    margin-top: -23px;
+    color: darkgrey;
+    font-size: 12px;
+}
+.gl-or{
+	margin: -40px 0 0 0px !important;
+    padding: 20px !important;
+}
+.gl-con2{
+	margin-top: 30px !important;
+}

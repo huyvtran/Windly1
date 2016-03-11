@@ -1,0 +1,66 @@
+<ion-view hide-nav-bar="true">
+	<div class="bar bar-header head-col">
+	  <button class="button button-icon off-togg ion-android-menu" menu-toggle="left"></button>
+	  <div class="h1 title bold">BUYERS</div>
+	  <button class="button button-icon bold ion-android-add" ui-sref="addbuyer"></button>
+    </div>
+    <ion-content  ng-show="showstartCard" scroll="false">
+		 <form class="reg-form">
+				<div class="row ba-row">
+				  <div class="col-50">
+					<button ng-click="showCard()" class="button button-block ba-button ba-g">ACTIVE (2)</button>
+				  </div>
+				  <div class="col-50">
+					<button ng-click="hideCard()" class="button button-block ba-button ba-w">CLOSED (9)</button>
+				  </div>
+				</div>
+			  <div class="col ba-colm" ui-sref="buyer-details">
+				<div class="row row-bottom ba-colm">
+				  <div class="col buyde-align ba-first"  ng-bind-html="name1"></div>
+				  <div class="col-30 badge badge-assertive ba-off sm-badge" ng-bind-html="offer1"></div>
+				</div>
+				<div class="row buyde-align ba-con"  ng-bind-html="number"></div>
+				<div class="row buyde-align ba-con1"  ng-bind-html="address"></div>
+              </div>
+			  <div class="col ba-colm" ui-sref="buyer-details">
+				<div class="row row-bottom ba-colm">
+				  <div class="col buyde-align ba-first"  ng-bind-html="name2"></div>
+				  <div class="col-30 badge badge-assertive ba-off sm-badge" ng-bind-html="offer2"></div>
+				</div>
+				<div class="row buyde-align ba-con"  ng-bind-html="number"></div>
+				<div class="row buyde-align ba-con1"  ng-bind-html="address1"></div>
+              </div>			  
+		 </form>
+		
+    </ion-content>
+	    <ion-content  ng-show="showsecondCard"  scroll="false">
+		 <form class="reg-form">
+				<div class="row ba-row">
+				  <div class="col-50">
+					<button ng-click="showCard()" class="button button-block ba-button ba-w" ui-sref="app.tabs.buyeractive">ACTIVE (2)</button>
+				  </div>
+				  <div class="col-50">
+					<button  ng-click="hideCard()"class="button button-block ba-button ba-g" ui-sref="app.tabs.buyerclose">CLOSED (9)</button>
+				  </div>
+				</div>
+			  <div class="col ba-colm" ui-sref="buyer-details">
+				<div class="row row-bottom ba-colm">
+				  <div class="col buyde-align ba-first"  ng-bind-html="name3"></div>
+				  <div class="col-30 badge badge-assertive ba-off sm-badge" ng-bind-html="offer1"></div>
+				</div>
+				<div class="row buyde-align ba-con"  ng-bind-html="number"></div>
+				<div class="row buyde-align ba-con1"  ng-bind-html="address"></div>
+              </div>
+			  <div class="col ba-colm" ui-sref="buyer-details">
+				<div class="row row-bottom ba-colm">
+				  <div class="col buyde-align ba-first"  ng-bind-html="name4"></div>
+				  <div class="col-30 badge badge-assertive ba-off sm-badge" ng-bind-html="offer2"></div>
+				</div>
+				<div class="row buyde-align ba-con"  ng-bind-html="number"></div>
+				<div class="row buyde-align ba-con1"  ng-bind-html="address1"></div>
+              </div>			  
+		 </form>
+		
+    </ion-content>
+</ion-view>
+

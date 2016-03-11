@@ -1,0 +1,28 @@
+<ion-view hide-nav-bar="true">
+	<div class="bar bar-header head-col">
+	  <button class="button button-icon off-togg ion-navicon" menu-toggle="left"></button>
+	  <div class="h1 title bold">DISCOVER HOMES</div>
+    </div>
+	<div class="bar bar-subheader head-col">
+	  <h2 class="title hf-clr">Austin, TX</h2>
+	</div>	
+    <ion-content scroll="true">
+            <ion-list>
+				    <img ng-src="{{image1}}" class="hf-img">
+					<button class="button button-full hf-browse" ui-sref="app.tabs.getstarted">
+					  BROWSE ALL PROPERTIES
+					</button>
+                    <div class="hf-gap">
+					  <p class="hf-get">
+					  GET STARTED
+					  </p>
+					  <p class="hf-by">
+					  by adding your first buyer
+					  </p>					  
+                    </div> 					
+					<button class="button button-block hf-add" ui-sref="addbuyer">
+					  ADD YOUR FIRST BUYER
+					</button>
+            </ion-list>
+    </ion-content>
+</ion-view>

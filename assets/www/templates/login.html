@@ -1,0 +1,35 @@
+<ion-view>
+    <ion-content overflow-scroll="true" padding="true" class="login-back" scroll="false">
+        <div style="margin-top:77px;">
+          <div class="item-image border_item login_hd_img border_val ">
+              <img src="img/Splash-v4.png" style="width:66% !important;">
+          </div>		
+		</div>
+        <form class="login-form">
+            <ion-list>
+                <label class="item-input clr-text login-input">
+                    <input type="text" placeholder="Email">
+                </label>
+                <label class="item-input clr-text login-input">
+                    <input type="password" placeholder="Password">
+                </label>
+            </ion-list>
+              <button class="button button-full bold button-calm" ui-sref="app.tabs.home">
+                  SIGN IN
+              </button>
+            <div>
+                <p class="calm login-line" ng-click="showPopup()">
+                   Forgot Password?
+                </p>
+            </div>
+            <div class="space"></div>
+            <button class="button button-assertive bold button-full"  ng-click="googleSignIn()">
+				SIGN IN WITH GOOGLE
+			</button>
+        
+        <div class="login-line clr">
+                Don't have an account? <p class="assertive login-line2" ui-sref="register">Sign Up</p>
+        </div>
+			</form>
+    </ion-content>
+</ion-view>

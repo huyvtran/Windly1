@@ -1,0 +1,49 @@
+<ion-view>
+	<div class="bar bar-header head-col">
+	  <button class="button button-icon bold ion-ios-arrow-thin-left" ui-sref="login"></button>
+	  <div class="h1 title bold">CREATE AN ACCOUNT</div>
+    </div>
+    <ion-content  scroll="true">
+		 <form class="reg-form">
+            <ion-list>
+                <label class="item-input login-input reg-input">
+                    <input type="text" placeholder="Name" value="{{user.name}}">
+                </label>
+                <label class="item-input login-input reg-input">
+                    <input type="text" placeholder="Phone#">
+                </label>
+                <label class="item-input login-input reg-input">
+                    <input type="email" placeholder="Email" value="{{user.email}}">
+                </label>
+                <label class="item-input login-input reg-input">
+                    <input type="Password" placeholder="Password">
+                </label>	
+				<label class="reg-mid">
+					<p class="reg-mid1">BROKERAGE FIRM</p>
+                </label>
+				<label class="item-input login-input reg-input">
+                    <input type="text" placeholder="Company Name">
+                </label>
+                <label class="item-input login-input reg-input">
+                    <input type="text" placeholder="Licence#">
+                </label>
+                <label class="item-input login-input reg-input">
+                    <input type="text" placeholder="Licenced Supervisor">
+                </label>
+                <label class="item-input login-input reg-input">
+                    <input type="text" placeholder="Phone">
+                </label>
+				 <label class="item-input login-input reg-input">
+                    <input type="email" placeholder="Email">
+                </label>
+                <label class="item-input login-input reg-input">
+                    <input type="text" placeholder="Address">
+                </label>
+            </ion-list>
+		 </form>
+		
+    </ion-content>
+				<ion-footer-bar class="bar-assertive" ui-sref="app.homefirst">
+				  <div class="h1 title reg-tittle bold">CREATE AN ACCOUNT</div>
+				</ion-footer-bar>
+</ion-view>

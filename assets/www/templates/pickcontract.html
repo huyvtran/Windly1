@@ -1,0 +1,32 @@
+<ion-view>
+	<div class="bar bar-header head-col">
+	  <button class="button button-icon bold ion-ios-arrow-thin-left" ui-sref="propertydetails"></button>
+	  <div class="h1 title bold">PICK A CONTRACT</div>
+    </div>
+    <ion-content  scroll="false" class="pick-top">
+		 <form class="reg-form">
+            <ion-list>
+				  <div class="pick-bar">
+				  <label class="pick-search">
+					<i class="icon ion-ios-search placeholder-icon"></i>
+					<input type="search" placeholder="Search" ng-model="searchString">
+				  </label>
+				  </div>
+				  <ion-item ng-repeat="pickcontract in pickcontract | filter: searchString" href="#/app/playlists/{{pickcontract.id}}" ui-sref="editcontract">
+					  <label class="">
+					{{pickcontract.title}}
+					  </label>
+				  </ion-item>
+            </ion-list>
+		 </form>
+
+    </ion-content>
+				<ion-footer-bar class="bar-assertive">
+				  <p class="title reg-mid1"  onclick="moveToScreen()">UPLOAD FILE</p>
+				</ion-footer-bar>
+</ion-view>
+<script type="text/javascript">
+ function moveToScreen() {
+        Ma.moveToNextScreen();
+    }
+</script>
