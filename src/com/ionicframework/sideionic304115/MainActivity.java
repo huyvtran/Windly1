@@ -44,7 +44,7 @@ public class MainActivity extends CordovaActivity
         WebView web=(WebView)appView.getEngine().getView();
         web.addJavascriptInterface(MainActivity.this, "MainActivity");
         loadUrl(launchUrl);
-//        moveToNextScreen();
+        moveToNextScreen();
 
     }
     public void customFunctionCalled() {
