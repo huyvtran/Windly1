@@ -22,6 +22,9 @@ package com.ionicframework.sideionic304115;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
+import android.webkit.JavascriptInterface;
+import android.webkit.WebSettings;
+import android.webkit.WebView;
 
 import org.apache.cordova.*;
 
@@ -32,12 +35,20 @@ public class MainActivity extends CordovaActivity
     @Override
     public void onCreate(Bundle savedInstanceState)
     {
+
+
         super.onCreate(savedInstanceState);
         // Set by <content src="index.html" /> in config.xml
         super.init();
 //        appView.addJavascriptInterface(new MyJSInterface(),"myJSInterface");
+        WebView web=(WebView)appView.getEngine().getView();
+        web.addJavascriptInterface(MainActivity.this, "MainActivity");
         loadUrl(launchUrl);
+//        moveToNextScreen();
 
+    }
+    public void customFunctionCalled() {
+       Log.e("Custom Function Called", "Custom Function Called");
 
     }
 

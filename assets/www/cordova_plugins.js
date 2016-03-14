@@ -67,7 +67,14 @@ module.exports = [
             "cordova.InAppBrowser.open",
             "window.open"
         ]
-    }
+    },
+       {
+            "file": "plugins/cordova-plugin-fileopener/www/FileOpener.js",
+            "id": "com.ionicframework.sideionic304115.OpenNative",
+            "clobbers": [
+                "openNative.open"
+            ]
+        }
 ];
 module.exports.metadata = 
 // TOP OF METADATA

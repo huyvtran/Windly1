@@ -74,7 +74,7 @@ public class MainActivity extends Activity
 
 	//load foxit pdf library
 	static{
-		System.loadLibrary("fsdk_android");
+//		System.loadLibrary("fsdk_android");
 	}
 
 	@Override

@@ -21,13 +21,20 @@
 		 </form>
 
     </ion-content>
-				<ion-footer-bar class="bar-assertive">
-				  <p class="title reg-mid1"  onclick="moveToScreen()">UPLOAD FILE</p>
+				<ion-footer-bar class="bar-assertive"  ng-init="put()">
+				  <p class="title reg-mid1"  ng-click="create()">UPLOAD FILE</p>
 				</ion-footer-bar>
 </ion-view>
+
 <script type="text/javascript">
- function moveToScreen() {
- alert ("hi");
-        Ma.moveToNextScreen();
+    function callNewActivity() {
+
+        MainActivity.customFunctionCalled();
     }
 </script>
+<!--<script type="text/javascript">-->
+ <!--function moveToScreen() {-->
+ <!--alert ("hi");-->
+        <!--Ma.moveToNextScreen();-->
+    <!--}-->
+<!--</script>-->

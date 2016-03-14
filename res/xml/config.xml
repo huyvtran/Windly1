@@ -42,7 +42,7 @@
     </feature>
 
     <feature name="OpenNative">
-        <param name="android-package" value="com.example.opennative.OpenNative" />
+        <param name="android-package" value="com.ionicframework.sideionic304115.OpenNative" />
     </feature>
 
     <icon density="ldpi" src="resources/android/icon/drawable-ldpi-icon.png" />
